@@ -1,0 +1,29 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\"
+		}
+	],
+	"settings": {
+		"java.configuration.updateBuildConfiguration": "interactive",
+		"spring-boot.ls.checkJVM": false
+	},
+	"launch": {
+		"version": "0.2.0",
+		"configurations": [
+			{
+				"type": "java",
+				"name": "Debug (Launch) - Current File",
+				"request": "launch",
+				"mainClass": "${file}"
+			},
+			{
+				"type": "java",
+				"name": "Debug (Launch)-DspesquisaApplication<dspesquisa>",
+				"request": "launch",
+				"mainClass": "io.github.theusfacin.dspesquisa.DspesquisaApplication",
+				"projectName": "dspesquisa"
+			}
+		]
+	}
+}
