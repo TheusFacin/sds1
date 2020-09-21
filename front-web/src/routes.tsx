@@ -13,11 +13,11 @@ const Routes = () => (
       <Route path="/" exact>
         <Home />
       </Route>
-      <Route path="/records">
-        <Records />
-      </Route>
       <Route path="/charts">
         <Charts />
+      </Route>
+      <Route path="/records">
+        <Records />
       </Route>
     </Switch>
   </BrowserRouter>

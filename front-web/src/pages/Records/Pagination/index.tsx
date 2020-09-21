@@ -12,8 +12,8 @@ const Pagination = ({ totalPages = 0, goToPage, activePage }: Props) => {
   const paginationItems = Array.from(Array(totalPages).keys());
 
   return (
-    // Botão de voltar
     <div className="pagination-container">
+      {/* Botão de voltar */}
       <button
         className={`pagination-item ${activePage > 0 ? 'active' : 'inactive'}`}
         onClick={activePage > 0 ? () => goToPage(activePage - 1) : () => {}}
